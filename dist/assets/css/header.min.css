@@ -1,0 +1,54 @@
+header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+header > div:first-child {
+  display: flex;
+  padding-top: 80px;
+}
+header > div:first-child > img {
+  position: absolute;
+  margin-left: 120px;
+  width: 27%;
+  margin-top: -30px;
+}
+header > div:first-child > div {
+  width: calc(100% - 462px);
+  margin-top: 30px;
+  margin-left: auto;
+}
+header > div:first-child > div > h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #313a68;
+  font-size: 50px;
+  background-color: #e0ce04;
+  width: calc(100% - 165px);
+  padding-left: 165px;
+}
+header > div:first-child > div > p {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 35px;
+  background-color: #d61a1a;
+  width: 51%;
+  padding-left: 295px;
+}
+header > div:first-child > div > img {
+  position: absolute;
+  margin-left: 162px;
+  margin-top: -17px;
+}
+header > .container > p {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 35px;
+  margin-top: 275px;
+  line-height: 40px;
+}
